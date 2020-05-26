@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+/* primary - font-family: 'Amatic SC', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+/* bodyTextRegular - font-family: 'Roboto Slab', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+/* bodyTextBold - font-family: 'Roboto Slab', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+/* homeScreenButton - font-family: 'Satisfy', cursive; */
+
+.container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.container-home-image {
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.container-home .titleStyle {
+  font-family: "Amatic SC", cursive;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.container-home-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-home-button .buttonStyle {
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7em;
+  background-color: #d48104;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  font-size: 1.5em;
+  text-align: center;
+  color: #fff;
+  font-family: "Satisfy", cursive;
+  text-transform: capitalize;
+  cursor: pointer;
+}

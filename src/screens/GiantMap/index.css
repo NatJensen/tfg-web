@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+/* primary - font-family: 'Amatic SC', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+/* bodyTextRegular - font-family: 'Roboto Slab', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+/* bodyTextBold - font-family: 'Roboto Slab', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+/* homeScreenButton - font-family: 'Satisfy', cursive; */
+
+.container-mapOfGiant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  background-color: #48972c;
+}
+
+.container-mapOfGiant .titleStyle {
+  font-family: "Amatic SC", cursive;
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+}
+
+.container-mapOfGiant-map {
+  position: relative;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.container-mapOfGiant-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container-mapOfGiant-buttons .buttonStyle {
+  margin-top: 3em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 7em;
+  background-color: #d48104;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  font-size: 1.3em;
+  text-align: center;
+  color: #fff;
+  font-family: "Satisfy", cursive;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+}

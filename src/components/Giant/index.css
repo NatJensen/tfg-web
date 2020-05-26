@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+/* primary - font-family: 'Amatic SC', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+/* bodyTextRegular - font-family: 'Roboto Slab', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+/* bodyTextBold - font-family: 'Roboto Slab', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+/* homeScreenButton - font-family: 'Satisfy', cursive; */
+
+.container-giant-comp {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5em 0.5em;
+}
+
+.container-giant-comp-location {
+  margin-bottom: 0.3em;
+  display: flex;
+  flex-direction: row;
+}
+
+.locationEmoji {
+  padding-left: 0.7em;
+  margin-right: 0.7em;
+  width: 1.9em;
+  height: 2em;
+}
+
+.locationText {
+  color: #fff;
+  font-family: "Amatic SC", cursive;
+  font-size: 1.3em;
+}
+
+.container-giant-comp-image {
+  position: relative;
+  width: 50vw;
+}
+
+.giantImageStyle {
+  margin-top: 0.3em;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.3em;
+}
+
+.imageTextPlacement {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.85); /* whiteTransparency */
+  border-bottom-left-radius: 1.3em;
+  border-bottom-right-radius: 1.3em;
+}
+
+.imageTextStyle {
+  margin: 0.2em;
+  padding-left: 0.4em;
+  font-size: 2em;
+  color: #000;
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+}

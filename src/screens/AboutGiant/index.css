@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+/* bodyTextRegular - font-family: 'Roboto Slab', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+/* bodyTextBold - font-family: 'Roboto Slab', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+/* homeScreenButton - font-family: 'Satisfy', cursive; */
+
+.container-aboutGiant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  height: 100vh;
+}
+
+.container-aboutGiant .titleStyle {
+  font-family: "Amatic SC", cursive;
+  font-size: 3em;
+  color: #000;
+  text-align: center;
+}
+
+.container-aboutGiant-image {
+  display: flex;
+  width: 40vw;
+}
+
+.aboutGiant-image {
+  width: 100%;
+  height: 100%;
+}
+
+.container-audio {
+  margin-top: 30px;
+}
+
+.audio-player {
+  outline: none;
+}
+
+.container-aboutGiant-description {
+  margin: 30px auto;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  width: 60vw;
+  font-size: medium;
+}
+
+.highlightedWords {
+  font-family: "Roboto Slab", serif;
+}
+
+.container-aboutGiant-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container-aboutGiant-buttons .buttonStyle {
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 7em;
+  background-color: #d48104;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  font-size: 1.3em;
+  text-align: center;
+  color: #fff;
+  font-family: "Satisfy", cursive;
+  text-transform: capitalize;
+  cursor: pointer;
+}

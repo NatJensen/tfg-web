@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+/* primary - font-family: 'Amatic SC', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+/* bodyTextRegular - font-family: 'Roboto Slab', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+/* bodyTextBold - font-family: 'Roboto Slab', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+/* homeScreenButton - font-family: 'Satisfy', cursive; */
+
+.container-allGiants {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #48972c;
+  width: 100vw;
+}
+
+.container-allGiants .titleStyle {
+  font-family: "Amatic SC", cursive;
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+}
+
+.container-allGiants-giant {
+  flex: 1;
+  background-color: #48972c;
+  margin: 0.9em;
+  cursor: pointer;
+}
+
+.allGiants-link {
+  text-decoration: none;
+}
